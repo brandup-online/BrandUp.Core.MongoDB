@@ -5,9 +5,9 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1A1D3E3-3944-4A25-9660-D572AEF4516F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrandUp.Core.MongoDB", "src\BrandUp.MongoDB.Repository\BrandUp.Core.MongoDB.csproj", "{32D5149E-F0DE-4D75-93F3-39578110F615}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5645A80A-A8EA-4A7A-886D-F4A6F0EC813E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrandUp.Core.Repository", "src\BrandUp.Core.Repository\BrandUp.Core.Repository.csproj", "{A2FDEA8A-8694-49E0-B02B-A348FDC30D64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,16 +15,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32D5149E-F0DE-4D75-93F3-39578110F615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32D5149E-F0DE-4D75-93F3-39578110F615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32D5149E-F0DE-4D75-93F3-39578110F615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32D5149E-F0DE-4D75-93F3-39578110F615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FDEA8A-8694-49E0-B02B-A348FDC30D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FDEA8A-8694-49E0-B02B-A348FDC30D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FDEA8A-8694-49E0-B02B-A348FDC30D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FDEA8A-8694-49E0-B02B-A348FDC30D64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{32D5149E-F0DE-4D75-93F3-39578110F615} = {B1A1D3E3-3944-4A25-9660-D572AEF4516F}
+		{A2FDEA8A-8694-49E0-B02B-A348FDC30D64} = {B1A1D3E3-3944-4A25-9660-D572AEF4516F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6255FBA8-D396-47BE-A538-9CA7A0785998}
