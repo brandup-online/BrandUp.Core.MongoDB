@@ -1,4 +1,6 @@
-﻿namespace BrandUp.MongoDB.Repository.Transaction
+﻿using BrandUp.Core.Repository.Transactions;
+
+namespace BrandUp.Core.Repository.MongoDB.Transactions
 {
     public class DocumentTransaction : ITransaction
     {
@@ -49,11 +51,5 @@
         {
             Dispose(disposing: true);
         }
-    }
-
-    public interface ITransaction : IDisposable
-    {
-        DateTime BeginDate { get; }
-        Task CommitAsync(CancellationToken cancellationToken = default);
     }
 }

@@ -1,6 +1,8 @@
-﻿using MongoDB.Driver;
+﻿using BrandUp.Core.Repository.MongoDB.Transactions;
+using BrandUp.MongoDB;
+using MongoDB.Driver;
 
-namespace BrandUp.MongoDB.Repository.Transaction
+namespace BrandUp.Core.Repository.Transactions
 {
     public class AppDocumentSession : ITransactionFactory, IDisposable
     {
@@ -45,10 +47,5 @@ namespace BrandUp.MongoDB.Repository.Transaction
 
             clientSession.Dispose();
         }
-    }
-
-    public interface ITransactionFactory
-    {
-        Task<ITransaction> BeginAsync(CancellationToken cancellationToken = default);
     }
 }
